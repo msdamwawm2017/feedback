@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="description" content="Feedback Staf Tim PJS MWA WM ITB">
+	<title>Feedback Staf Tim PJS MWA WM ITB</title>
+
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css"></head>
+</head>
+<body>
+
+	<div id="particles-js"></div>
+
+	<div id="main">
+		<div class="container">
+			<div class="row">
+
+				<div class="col s12 center">
+					<img class="responsive-img logo" src="images/logo-1000-px.png"></div>
+			</div>
+
+			<div class="col s12 center">
+				<h3>Feedback Staf Tim PJS MWA WM ITB 2017</h3>
+			</div>
+
+			<div class="col s12 center">
+				<span style="font-size: 1.5rem;">
+					Selamat datang di portal <em>feedback</em>
+					staf tim PJS MWA WM ITB 2017. Silakan lengkapi form di bawah ini dengan <em>feedback</em>
+					Anda terhadap keberjalanan divisi Anda di bulan <b><span id="bulan"></span>
+						2017</b> 
+				</span>
+			</div>
+
+			<div class="row">
+				<div class="input-field col s12">
+					<input required="" aria-required="true" id="name" name="name" type="text">
+					<label for="name" data-error="Field harus diisi">Nama lengkap</label>
+				</div>
+				<div class="input-field col s12">
+					<input required="" aria-required="true" id="nim" name="nim" type="number">
+					<label for="nim" data-error="Field harus diisi">NIM</label>
+				</div>
+				<div class="input-field col s12">
+					<select id="divisi" name="divisi">
+						<option value="" disabled selected>Pilih divisi Anda</option>
+					</select>
+					<label>Divisi</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12">
+					<p><b>BACA ATURAN PAKAI!</b> Sekarang waktunya untuk mengisi <em>feedback</em> dari Anda untuk keberjalanan tim PJS MWA WM ITB 2017. Tuliskan dalam bentuk paragraf. <em>Feedback</em> dianjurkan mengandung:</p>
+					<ol>
+						<li>Keberjalanan divisi Anda</li>
+						<li>Keberjalanan tim PJS MWA WM</li>
+						<li>Hubungan Anda dengan ketua divisi</li>
+						<li>Performa ketua divisi Anda</li>
+						<li>Performa PJS MWA WM ITB yang Anda ketahui</li>
+						<li>Kritik dan saran yang membangun secara keseluruhan pada satu tim</li>
+						<li>Kritik dan saran yang membangun secara khusus kepada divisi Anda</li>
+					</ol>
+				</div>
+
+				<div class="input-field col s12">
+					<textarea placeholder="Tuliskan feedback Anda di sini" required aria-required="true" class="materialize-textarea" id="feedback" name="feedback"></textarea>
+					<label for="feedback">Feedback</label>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 center">
+					<button class="btn waves-effects waves-ripple submit-button">Kirim Feedback Anda</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="center">
+	 	Copyright &copy; 2017.
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/feedback.js"></script>
+</body>
+</html>
